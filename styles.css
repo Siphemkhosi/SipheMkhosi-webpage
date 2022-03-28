@@ -215,23 +215,35 @@ h4 {
 
 /* Media Quiry for mobiles */
 @media (max-width: 688px){ 
-    /* .middle { 
-        float: right;
-        padding: 0 0 20px 20px;
-}  
-.sub-description{float: left;
-    padding: 0 20px 20px 0; */
+    
     
     .super-contents {
         flex-direction: column;
     } 
-    .middle {
-        float: left;
-        padding:5px;
-    }
-    .wrapper{
-        max-width: 100px;
-        margin-left: auto;
-        margin-right: auto;
-    }
+    .sub-description {
+        flex-direction: column;
+      text-align: center;
+    } 
+.header{
+    margin-left: 0px;
+    margin-right: auto;
+    width: 100px;
+
+}
+
+     h1{
+         display: flex;
+         font-size: medium;
+         align-content: center;
+     }
+    .img {
+    
+        border-radius: 10px 10px 10px 10px;
+    
+         width: 50px;
+       
+        
+     
+    } 
+    
 }
