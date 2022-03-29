@@ -18,60 +18,57 @@
 
 }
 .header {
-    
     display:flex;
     align-items: center;
-    
     background-color:bisque;
-
 }
 .header img {
     
-    border-radius: 10px 10px 10px 10px;
+    /* border-radius: 10px 10px 10px 10px; */
     padding-top: 20px;
-    width: 300px;
+    width: 200px;
     height: 200px;
-    margin-left: 30px;
+    margin-left:10px;
     object-fit: cover;
 } 
     /*WHich city section  */
     .middle-wrapper {
-
+        
         margin-bottom: 20px;
         background-color:bisque;
         color: black;
-        /* width: 400px;
-        margin: 0 auto; */
-        color-interpolation-filters: initial;
+        margin-left: auto;
+        margin-right: auto;
+        /* color-interpolation-filters: initial; */
     }
 
 h2{background-color: bisque;
  font-style: italic;
+ 
+}
+h2, h3{
+    text-align: center; 
 }
 
 .middle { 
     background-color:bisque;
-    /* display: flex; */
-    /* padding-top: 20px; */
-    width: 100%;
-    justify-content: space-between;
-    
-   
+    display: flex;
+    /* align-items: center; */
+    justify-content:center;
 }
 
 
 .middle img {
     margin-right: 10px;
     border-radius: 10px 10px 10px 10px;
-     Width: 200px;
+     Width: 300px;
      height: 200px;
      object-fit: cover;
      
 }
 .sub-description {
+    display: flex;  
     margin-top: 20px;
-    display: flex;
-    margin-left: 20px;
 }
  
 
@@ -90,14 +87,23 @@ h3{
 }
 
 .para {
-    margin-top: 10px;
+    display: flex; 
+    align-items: center;
+    justify-items: center ;
+    margin-top: 10px; 
+   
+}
+table {
+    margin-left: 14em;
+
 }
 table, th,td {
     
     margin-top: 10px;
     border: 1px solid black; 
     border-collapse: collapse;
-   
+    text-align: center;
+    padding-left: 30px;
     
 }
 td{
@@ -214,7 +220,7 @@ h4 {
 
 
 /* Media Quiry for mobiles */
-@media (max-width: 688px){ 
+@media (max-width: 700px){ 
     
     
     .super-contents {
@@ -225,9 +231,11 @@ h4 {
       text-align: center;
     } 
 .header{
-    margin-left: 0px;
+    margin-left: 10px;
     margin-right: auto;
-    width: 100px;
+    width: 0px;
+    align-items: center;
+    justify-items: center;
 
 }
 
@@ -239,11 +247,10 @@ h4 {
     .img {
     
         border-radius: 10px 10px 10px 10px;
-    
-         width: 50px;
-       
-        
+        width: 50px;
+         } 
+     table{
+        margin-left: 0px;
+    }
      
-    } 
-    
 }
