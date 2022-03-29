@@ -153,6 +153,7 @@ margin-left: 10px;
   margin-left: 10px;    
 }
  .content1 {
+     
      background-color:whitesmoke;
      position: relative;
      border-radius: 50% / 6%;
@@ -162,14 +163,16 @@ margin-left: 10px;
 }
 
   .content2 {
+      margin-left: 10px;
     background-color:floralwhite;
     position: relative;
-    border-radius: 50% / 4%;
+    border-radius: 50% / 6%;
     text-align: center;
     text-indent: .1em; 
 
 }  
 .content3 {
+    margin-left: 10px;
     background-color:beige;
     position: relative;
     border-radius: 50% / 6%;
@@ -207,6 +210,7 @@ margin-left: 10px;
 h4 {
     color: rgb(134, 106, 70);
     font-size: 16px;
+    margin-bottom: 20px;
   
 }
 
@@ -251,6 +255,12 @@ h4 {
          } 
      table{
         margin-left: 0px;
+    }
+    .content1{
+        margin-bottom: 10px;
+    }
+    .content2 {
+        margin-bottom: 10px;
     }
      
 }
